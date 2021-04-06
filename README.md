@@ -8,7 +8,7 @@ In the utils.ts file, you will find:
 
 1. An array of Brightbridge's Zephyrs, including various pieces of metadata as well as the latest pollution measurements they have taken.
 2. A colourscale for the pollution measurements ranging from 1 to 10.
-3. An interface has been included for each of the structures above.
+3. An interface for each of the structures above.
 
 ### Things to Do
 
