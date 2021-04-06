@@ -18,4 +18,4 @@ In the utils.ts file, you will find:
 5. Add a filter that allows the council to show either: all Zephyrs, standard Zephyrs alone, or enhanced Zephyrs alone.
 6. Do pay attention to styles and how you can present the information in a clean, engaging way for the council.
 
-Please provide a copy of your code in a publicly accessible location (e.g. Github, Bitbucket etc) when you're done.
+Please provide a copy of your code in a publicly accessible location (e.g. Github, Bitbucket etc) when you're done and send it over to us for review.
