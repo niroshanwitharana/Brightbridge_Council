@@ -1,10 +1,21 @@
-In the utils.ts file are a list of Zephyrs (air quality sensors) that belong to Brightbridge Council. Your task is to create a React application that displays each of the council's Zephyrs. Please follow the guidance below:
+# Brightbridge Council Challenge - Front End Development
 
-1. Order the Zephyrs so that all of Standard Zephyr types are displayed before the enhanced Zephyr types.
-2. Display the name, type, batteryPercentage, NO2, and PM2.5 value of each Zephyr.
-3. Use the colourscale arrray provided in utils.ts to show a colour for each Zephyr. You should base this color off the highest value between the NO2 and PM2.5 reading for each Zephyr. The minimum reading is 0 and the maximum reading is 10.
-4. Add a filter that allows a user to show either: all Zephyrs, standard Zephyr types, or enhanced Zephyr types.
-5. Some of the Zephyrs listed aren't owned by Brightbridge Council any more. Don't display any Zephyrs that aren't currently owned.
+Brightbridge Council are an EarthSense customer that have purchased a fleet of Zephyrs (air quality sensors). Your task is to create a React application that allows the council to see each of their Zephyrs along with their latest pollution measurements.
+
+### Things to Note
+
+In the utils.ts file, you will find:
+
+1. An array of Brightbridge's Zephyrs, including various pieces of metadata as well as the latest pollution measurements they have taken.
+2. A colourscale for the pollution measurements ranging from 1 to 10.
+
+### Things to Do
+
+1. Display the name, type, battery charge, NO₂, and PM₂.₅ measurements for each Zephyr in a list.
+2. Order the list so that standard Zephyr types are displayed before enhanced Zephyr types.
+3. Some of the Zephyrs listed are no longer owned by Brightbridge Council - remove these from the list.
+4. Use the colourscale to display a colour associated with each Zephyr. You should base this color on the highest value between the NO₂ and PM₂.₅ measurements.
+5. Add a filter that allows the council to show either: all Zephyrs, standard Zephyrs alone, or enhanced Zephyrs alone.
 6. Do pay attention to styles and how you can present the information in a clean, engaging way for the council.
 
 Please provide a copy of your code in a publicly accessible location (e.g. Github, Bitbucket etc) when you're done.
