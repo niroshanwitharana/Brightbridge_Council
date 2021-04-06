@@ -1,6 +1,6 @@
 # Brightbridge Council Challenge - Front End Development
 
-Brightbridge Council are an EarthSense customer that have purchased a fleet of Zephyrs (air quality sensors). Your task is to create a React application that allows the council to see each of their Zephyrs along with their latest pollution measurements.
+Brightbridge Council are a new EarthSense customer who have purchased a fleet of Zephyrs (air quality sensors). Your task is to create a React application that allows the council to monitor each of their Zephyrs along with their latest pollution measurements.
 
 ### Things to Note
 
@@ -8,6 +8,7 @@ In the utils.ts file, you will find:
 
 1. An array of Brightbridge's Zephyrs, including various pieces of metadata as well as the latest pollution measurements they have taken.
 2. A colourscale for the pollution measurements ranging from 1 to 10.
+3. An interface has been included for each of the structures above.
 
 ### Things to Do
 
