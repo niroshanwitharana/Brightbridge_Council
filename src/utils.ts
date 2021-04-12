@@ -1,10 +1,14 @@
+
+export {}
 interface Zephyr {
+  id: number,
   name: string;
   type: "Standard" | "Enhanced";
   batteryPercentage: number;
   currentlyOwned: boolean;
   NO2: number;
   PM25: number;
+
 }
 
 interface Colour {
@@ -12,8 +16,9 @@ interface Colour {
   hex: string;
 }
 
-const zephyrs: Zephyr[] = [
+export const zephyrs: Zephyr[] = [
   {
+    id: 1,
     name: "Bloomfield Road",
     type: "Standard",
     batteryPercentage: 80,
@@ -22,6 +27,7 @@ const zephyrs: Zephyr[] = [
     PM25: 4,
   },
   {
+    id: 2,
     name: "Mason Avenue",
     type: "Enhanced",
     batteryPercentage: 20,
@@ -30,6 +36,7 @@ const zephyrs: Zephyr[] = [
     PM25: 5,
   },
   {
+    id: 3,
     name: "Limewood Grove",
     type: "Enhanced",
     currentlyOwned: true,
@@ -38,6 +45,7 @@ const zephyrs: Zephyr[] = [
     PM25: 10,
   },
   {
+    id: 4,
     name: "Titan Strait",
     type: "Standard",
     currentlyOwned: false,
@@ -46,6 +54,7 @@ const zephyrs: Zephyr[] = [
     PM25: 2,
   },
   {
+    id: 5,
     name: "Deansgate",
     type: "Enhanced",
     currentlyOwned: true,
@@ -54,6 +63,7 @@ const zephyrs: Zephyr[] = [
     PM25: 3,
   },
   {
+    id: 6,
     name: "Oscar Grove",
     type: "Enhanced",
     currentlyOwned: false,
@@ -62,6 +72,7 @@ const zephyrs: Zephyr[] = [
     PM25: 3,
   },
   {
+    id: 7,
     name: "Pattan Way",
     type: "Standard",
     currentlyOwned: true,
@@ -70,6 +81,7 @@ const zephyrs: Zephyr[] = [
     PM25: 2,
   },
   {
+    id: 8,
     name: "Stony Brooks",
     type: "Standard",
     currentlyOwned: true,
@@ -78,6 +90,7 @@ const zephyrs: Zephyr[] = [
     PM25: 1,
   },
   {
+    id: 9,
     name: "Heather Crescent",
     type: "Standard",
     batteryPercentage: 80,
@@ -86,6 +99,7 @@ const zephyrs: Zephyr[] = [
     PM25: 4,
   },
   {
+    id: 10,
     name: "Terrance Way",
     type: "Enhanced",
     batteryPercentage: 20,
@@ -94,6 +108,7 @@ const zephyrs: Zephyr[] = [
     PM25: 6,
   },
   {
+    id: 11,
     name: "Flint Road",
     type: "Standard",
     currentlyOwned: true,
@@ -102,6 +117,7 @@ const zephyrs: Zephyr[] = [
     PM25: 2,
   },
   {
+    id: 12,
     name: "Holden Lane",
     type: "Standard",
     currentlyOwned: false,
@@ -110,6 +126,7 @@ const zephyrs: Zephyr[] = [
     PM25: 6,
   },
   {
+    id: 13,
     name: "Abbey Station",
     type: "Standard",
     currentlyOwned: true,
@@ -118,6 +135,7 @@ const zephyrs: Zephyr[] = [
     PM25: 7,
   },
   {
+    id: 14,
     name: "Morton Road",
     type: "Standard",
     currentlyOwned: false,
@@ -126,6 +144,7 @@ const zephyrs: Zephyr[] = [
     PM25: 8,
   },
   {
+    id: 15,
     name: "Cherrytree Crossing",
     type: "Standard",
     currentlyOwned: true,
@@ -134,6 +153,7 @@ const zephyrs: Zephyr[] = [
     PM25: 2,
   },
   {
+    id: 16,
     name: "Oultan Parkway",
     type: "Enhanced",
     currentlyOwned: true,
@@ -143,7 +163,7 @@ const zephyrs: Zephyr[] = [
   },
 ];
 
-const colours: Colour[] = [
+export const colours: Colour[] = [
   {
     value: 1,
     hex: "#9EFF9C",
